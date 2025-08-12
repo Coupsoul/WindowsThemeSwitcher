@@ -8,10 +8,10 @@ namespace WindowsThemeSwitcher.Config
 {
     internal class ThemeType
     {
-        public enum TypeOfTheme
+        internal enum TypeOfTheme
         {
-            Light,
-            Dark
+            Dark,
+            Light
         }
     }
 }

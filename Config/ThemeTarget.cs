@@ -8,9 +8,9 @@ namespace WindowsThemeSwitcher.Config
 {
     internal class ThemeTarget
     {
-        public enum TargetOfTheme
+        internal enum TargetOfTheme
         {
-            App,
+            Apps,
             System,
             Both
         }
