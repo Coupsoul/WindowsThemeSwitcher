@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsThemeSwitcher", "WindowsThemeSwitcher.csproj", "{FE957646-05C0-4DF3-9ABA-AB81809BC361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE957646-05C0-4DF3-9ABA-AB81809BC361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE957646-05C0-4DF3-9ABA-AB81809BC361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE957646-05C0-4DF3-9ABA-AB81809BC361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE957646-05C0-4DF3-9ABA-AB81809BC361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35822B41-700C-4DA8-94A1-84B69C4AA415}
+	EndGlobalSection
+EndGlobal
