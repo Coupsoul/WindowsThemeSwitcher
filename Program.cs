@@ -1,24 +1,23 @@
 ﻿using WindowsThemeSwitcher;
-using static WindowsThemeSwitcher.Config.ThemeTarget;
-using static WindowsThemeSwitcher.Config.ThemeType;
+using static WindowsThemeSwitcher.ConfigEnumerations;
 
-class Program
+internal class Program
 {
-    public static void Main(string[] args)
+    internal static void Main(string[] args)
     {
-        TypeOfTheme themeToSet;
+        ThemeType themeToSet;
         if (DateTime.Now.Hour >= 8 && DateTime.Now.Hour < 22)
-            themeToSet = TypeOfTheme.Light;
+            themeToSet = ThemeType.Light;
         else
-            themeToSet = TypeOfTheme.Dark;
+            themeToSet = ThemeType.Dark;
 
-        TargetOfTheme targetToSet = TargetOfTheme.Apps;
+        ThemeTarget targetToSet = ThemeTarget.Apps;
         if (args.Length > 0)
         {
             switch (args[0].ToLower())
             {
-                case "system": targetToSet = TargetOfTheme.System; break;
-                case "both": targetToSet = TargetOfTheme.Both; break;
+                case "system": targetToSet = ThemeTarget.System; break;
+                case "both": targetToSet = ThemeTarget.Both; break;
             }
         }
 
