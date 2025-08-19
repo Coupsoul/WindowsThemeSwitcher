@@ -18,7 +18,7 @@
 ## ⚙️ Установка и настройка
 
 1.  **Скачайте приложение:**
-    * В разделе [**Releases**] (https://github.com/ТвойНик/WindowsThemeSwitcher/releases) этого репозитория скачайте `WindowsThemeSwitcher.exe`.
+    * В разделе [**Releases**] этого репозитория скачайте `WindowsThemeSwitcher.exe`.
 
 2.  **Разместите файл:**
     * Создайте на диске `C:` папку `Scripts` (или любую другую удобную для вас).
